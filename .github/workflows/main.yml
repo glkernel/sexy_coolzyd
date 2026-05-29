@@ -95,15 +95,6 @@ on:
         description: "禁用 SUSFS"
         type: boolean
         default: false
-      droidspaces:
-        description: "Droidspaces 容器支持 (5.10~6.6: 槽位补丁, 6.12: 开/关)"
-        type: choice
-        options:
-          - "off"
-          - "678"
-          - "123"
-          - "345"
-        default: "off"
 
       # ==================== 构建版本选择 ====================
       build_a12_5_10:
